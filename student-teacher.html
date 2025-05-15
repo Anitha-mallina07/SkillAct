@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Teacher Interaction - SkillAct</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student-Teacher Interaction</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Welcome to the Interaction Platform</h2>
+            <p>This feature allows students and teachers to communicate and collaborate effectively.</p>
+            <form id="interaction-form">
+                <label for="user-type">I am a:</label>
+                <select id="user-type" name="user-type">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+                <br>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <br>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <script src="../assets/js/scripts.js"></script>
+</body>
+</html>
